@@ -1,5 +1,5 @@
 const accidentData = [
-  { year: 2021, state: "Telangana", deaths: 4500, injuries: 12000 },
+  { year: 2021, state: "Tamil Nadu", deaths: 4500, injuries: 12000 },
   { year: 2021, state: "Kerala", deaths: 2300, injuries: 8000 },
   { year: 2021, state: "Maharashtra", deaths: 5100, injuries: 15000 },
   { year: 2021, state: "Delhi", deaths: 3100, injuries: 6000 },
@@ -10,7 +10,7 @@ const accidentData = [
   { year: 2021, state: "Punjab", deaths: 2500, injuries: 7200 },
   { year: 2021, state: "Haryana", deaths: 2800, injuries: 7800 },
 
-  { year: 2022, state: "Telangana", deaths: 4700, injuries: 12500 },
+  { year: 2022, state: "Tamil Nadu", deaths: 4700, injuries: 12500 },
   { year: 2022, state: "Kerala", deaths: 2400, injuries: 8500 },
   { year: 2022, state: "Maharashtra", deaths: 5300, injuries: 15500 },
   { year: 2022, state: "Delhi", deaths: 3200, injuries: 6300 },
@@ -21,7 +21,7 @@ const accidentData = [
   { year: 2022, state: "Punjab", deaths: 2600, injuries: 7500 },
   { year: 2022, state: "Haryana", deaths: 3000, injuries: 8200 },
 
-  { year: 2023, state: "Telangana", deaths: 5000, injuries: 13000 },
+  { year: 2023, state: "Tamil Nadu", deaths: 5000, injuries: 13000 },
   { year: 2023, state: "Kerala", deaths: 2100, injuries: 7600 },
   { year: 2023, state: "Maharashtra", deaths: 5500, injuries: 16000 },
   { year: 2023, state: "Delhi", deaths: 2900, injuries: 5900 },
@@ -32,7 +32,7 @@ const accidentData = [
   { year: 2023, state: "Punjab", deaths: 2700, injuries: 7800 },
   { year: 2023, state: "Haryana", deaths: 3100, injuries: 8400 },
 
-  { year: 2024, state: "Telangana", deaths: 5200, injuries: 13200 },
+  { year: 2024, state: "Tamil Nadu", deaths: 5200, injuries: 13200 },
   { year: 2024, state: "Kerala", deaths: 2200, injuries: 7800 },
   { year: 2024, state: "Maharashtra", deaths: 5700, injuries: 16500 },
   { year: 2024, state: "Delhi", deaths: 3100, injuries: 6100 },
@@ -127,4 +127,5 @@ function compareYears() {
     options: { plugins: { title: { display: true, text: `Injury Trend (${state || "All States"})` } } }
   });
 }
+
 
