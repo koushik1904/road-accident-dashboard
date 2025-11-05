@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Road Accident Dashboard</title>
+  <link rel="stylesheet" href="styling.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🚦 Road Accident Data Dashboard</h1>
+
+    <div class="filters">
+      <label>Year:</label>
+      <select id="yearSelect">
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+
+      <label>State:</label>
+      <select id="stateSelect">
+        <option value="All">All</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Haryana">Haryana</option>
+      </select>
+
+      <label>
+        <input type="checkbox" id="compareCheckbox"> Compare between Years
+      </label>
+
+      <button id="showBtn">Show Data</button>
+    </div>
+
+    <div class="charts">
+      <canvas id="chart1" height="200"></canvas>
+      <canvas id="chart2" height="200"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
