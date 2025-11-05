@@ -1,0 +1,21 @@
+/* frontend/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 { text-align:center; color:#333; }
+.filters { display:flex; justify-content:center; gap:10px; margin-bottom:20px; align-items:center; flex-wrap:wrap; }
+select, button { padding:8px; border-radius:5px; box-shadow: 0 5px 10px rgba(85, 83, 83, 0.2); border:1px solid #aaa; }
+button { background:#007bff; color:white; border:none; cursor:pointer; }
+button:hover { background:#0056b3; }
+canvas { display:block; margin:20px auto; max-width:90%; }
